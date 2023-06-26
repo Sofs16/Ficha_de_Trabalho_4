@@ -20,7 +20,8 @@ consumo_brazil_1990 = dados_brazil['1990 [YR1990]'].values[0]
 consumo_brazil_2000 = dados_brazil['2000 [YR2000]'].values[0]
 
 variacao_percentual_portugal = calculo_variacao_percentual(consumo_portugal_1990, consumo_portugal_2000)
-print("A variação percentual do consumo de energia elétrica de Portugal nos últimos 10 anos é: ", variacao_percentual_portugal)
+print("A variação percentual do consumo de energia elétrica de Portugal nos últimos 10 anos é de:", str(round(variacao_percentual_portugal, 2)),"%.")
 
+print("")
 variacao_percentual_brazil = calculo_variacao_percentual(consumo_brazil_1990, consumo_brazil_2000)
-print("A variação percentual do consumo de energia elétrica de Brasil nos últimos 10 anos é: ", variacao_percentual_brazil)
+print("A variação percentual do consumo de energia elétrica de Brasil nos últimos 10 anos é de:", str(round(variacao_percentual_brazil, 2)),"%.")
